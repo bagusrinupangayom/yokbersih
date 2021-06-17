@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.navbar a {
+    color: black;
+    transition: .3s;
+}
+
+.navbar a:hover {
+    color: #0d6efd;
+}
+
+.navbar-nav a {
+    text-transform: uppercase;
+    margin-right: 8px;
+    font-size: 18px;
+}
+
+.navbar-brand {
+    font-size: 28px;
+    letter-spacing: 4px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.bg-light {
+    color: #0d6efd;
+}
+
+.judul {
+    background-color: #0d6efd;
+    height: 240px;
+}
+
+.kanan1 h1 {
+    font-size: 56px;
+    color: white;
+    font-weight: bold;
+}
+
+/* Easy Cleaning */
+.easy {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.easy h2 {
+    font-weight: bold;
+    color: black;
+}
+
+.easy h5 {
+    font-weight: 600;
+    color: black;
+}
+
+.easy p {
+    color: black;
+}
+
+.eimg {
+    background-image: url('https://images.unsplash.com/photo-1581578949510-fa7315c4c350?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height: 300px;
+    border-radius: 4px;
+}
+
+/* Akhir Easy Cleaning */
+
+
+/* Medium Cleaning */
+.medi {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.medi h2 {
+    font-weight: bold;
+    color: black;
+}
+
+.medi h5 {
+    font-weight: 600;
+    color: black;
+}
+
+.medi p {
+    color: black;
+}
+
+.mimg {
+    background-image: url('https://images.unsplash.com/photo-1584378834085-0aa159117f9b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height: 300px;
+    border-radius: 4px;
+}
+
+/*Akhir Medium Cleaning */
+
+
+/* Hard Cleaning */
+.hard {
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+
+.hard h2 {
+    font-weight: bold;
+    color: black;
+}
+
+.hard h5 {
+    font-weight: 600;
+    color: black;
+}
+
+.hard p {
+    color: black;
+}
+
+.himg {
+    background-image: url('https://images.unsplash.com/photo-1601160458000-2b11f9fa1a0e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height: 300px;
+    border-radius: 4px;
+}
+
+/* Akhir Hard Cleaning */
+
+.gambar1 {
+    background-image: url('https://images.unsplash.com/photo-1601160463734-d4006a0960e0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+.bgwarna {
+    height: 450px;
+    background-color: #0d6efd;
+}
+
+.teks1 {
+    color: white;
+}
+
+.footer p {
+    color: black;
+}
+
+.icon {
+    transition: .3s;
+}
+
+.icon:hover {
+    fill: #0d6efd;
+}
+
+
+/* Mobile */
+@media (max-width: 575.98px) {
+    .navbar-nav a {
+        text-transform: none;
+        text-align: center;
+    }
+
+    .kanan1 h1 {
+        font-size: 36px;
+    }
+
+    .kiri1 {
+        border-radius: 0;
+    }
+}
+
+/* Tablet/Tab */
+@media (max-width: 991.98px) {
+    .kanan1 h1 {
+        font-size: 40px;
+    }
+}

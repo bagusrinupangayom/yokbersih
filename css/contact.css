@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.navbar a {
+    color: black;
+    transition: .3s;
+}
+
+.navbar a:hover {
+    color: #0d6efd;
+}
+
+.navbar-nav a {
+    text-transform: uppercase;
+    margin-right: 8px;
+    font-size: 18px;
+}
+
+.navbar-brand {
+    font-size: 28px;
+    letter-spacing: 4px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.bg-light {
+    color: #0d6efd;
+}
+
+.judul {
+    background-color: #0d6efd;
+    height: 240px;
+}
+
+.kanan1 h1 {
+    font-size: 56px;
+    color: white;
+    font-weight: bold;
+}
+
+/* Pertanyaan */
+.pertanyaan h4 {
+    font-weight: bold;
+    color: black;
+}
+
+.pertanyaan p {
+    color: black;
+}
+
+/* AkhirPertanyaan */
+
+
+/* Forum */
+.kntk h4 {
+    font-weight: bold;
+    color: black;
+}
+
+.kntk p {
+    color: black;
+}
+
+
+/* Akhir Fourm */
+
+
+
+
+.gambar1 {
+    background-image: url('https://images.unsplash.com/photo-1601160463734-d4006a0960e0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+.footer p {
+    color: black;
+}
+
+.icon {
+    transition: .3s;
+}
+
+.icon:hover {
+    fill: #0d6efd;
+}
+
+
+/* Mobile */
+@media (max-width: 575.98px) {
+    .navbar-nav a {
+        text-transform: none;
+        text-align: center;
+    }
+
+    .kanan1 h1 {
+        font-size: 36px;
+    }
+
+    .kiri1 {
+        border-radius: 0;
+    }
+}
+
+/* Tablet/Tab */
+@media (max-width: 991.98px) {
+    .kanan1 h1 {
+        font-size: 40px;
+    }
+}
